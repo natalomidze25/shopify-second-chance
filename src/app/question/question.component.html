@@ -1,0 +1,8 @@
+<div class="question-div">
+  <h2>{{questionInfo.h2}}</h2>
+  <button (click)="paragraph()">{{buttonText}}</button>
+</div>
+<div class="question-div-expended" [class.expend]="buttonText === '-'">
+  <p>{{questionInfo.p}}</p>
+</div>
+

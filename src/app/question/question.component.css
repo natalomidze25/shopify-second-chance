@@ -1,0 +1,34 @@
+.question-div{
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  justify-content: space-between;
+}
+
+.question-div button{
+  background-color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+}
+
+
+.question-div h2{
+  font-size: 2rem;
+}
+
+.question-div button:hover{
+  background-color: #969393;
+}
+.question-div-expended{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s linear;
+}
+.question-div-expended p{
+  font-size: 1.5rem;
+}
+.expend {
+  max-height: 100px;
+}

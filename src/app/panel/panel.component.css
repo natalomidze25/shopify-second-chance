@@ -1,0 +1,44 @@
+.panel-div{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  top: -124px;
+  left: 0;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+.panel-div.visible{
+  top:0;
+}
+.get-started-button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.learn-more-button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+
+}
+.learn-more-button:hover{
+  background-color: rgba(169, 164, 164, 0.5);
+}
+
+.get-started-button:hover{
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.button-div{
+  gap: 5px;
+  display: flex;
+  padding: 0.5rem;
+}
